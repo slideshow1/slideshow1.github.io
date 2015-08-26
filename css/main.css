@@ -1,41 +1,43 @@
 @-webkit-keyframes slideshow {
     
     25% {
-       left:0px;
+       transform: translateX(0px)
     }
     
     50% {
-        left:-480px;
+        transform:translateX(-480px);
     }
     
     75% {
-        left:-960px;
+        transform:translateX(-960px);
     }
     
     100% {
-        left:-1440px;
+        transform:translateX(-1440px);
     }
     
 }
+
 @keyframes slideshow {
     
     25% {
-       left:0px;
+       transform: translateX(0px)
     }
     
     50% {
-        left:-480px;
+        transform:translateX(-480px);
     }
     
     75% {
-        left:-960px;
+        transform:translateX(-960px);
     }
     
     100% {
-        left:-1440px;
+        transform:translateX(-1440px);
     }
     
 }
+
 
 body {
     background: #444;
@@ -68,12 +70,12 @@ a:hover {
     border:5px solid hotPink;
     overflow:hidden;
     margin: 20px auto;
-    position: relative;
 }
 
 .slideshow {
     width:2000px;
     height:300px;
+    
 }
 
 img {
@@ -83,7 +85,6 @@ img {
 img.img1 {
     -webkit-animation: slideshow 10s 1s infinite;
             animation: slideshow 10s 1s infinite;
-     position: relative;
     -webkit-filter: grayscale();
     -moz-filter:grayscale();
          filter: grayscale();
@@ -93,17 +94,14 @@ img.img1 {
 img.img2 {
     -webkit-animation: slideshow 10s 1s infinite;
             animation: slideshow 10s 1s infinite;
-     position:relative;
 }
 
 img.img3 {
     -webkit-animation: slideshow 10s 1s infinite;
             animation: slideshow 10s 1s infinite;
-     position:relative;
 }
 
 img.img4 {
     -webkit-animation: slideshow 10s 1s infinite;
             animation: slideshow 10s 1s infinite;
-     position:relative;
 }
