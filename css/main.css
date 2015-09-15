@@ -62,15 +62,15 @@
 @-webkit-keyframes fade {
     
     50% {
-        background: url(../img/img11.jpg) no-repeat;
+        background-image: url(../img/img11.jpg) no-repeat;
     }
     
     75% {
-        background: url(../img/img18.jpg) no-repeat;
+        background-image: url(../img/img18.jpg) no-repeat;
     }
     
     100% {
-        background: url(../img/img9.jpg) no-repeat;
+        background-image: url(../img/img9.jpg) no-repeat;
     }
     
 }
@@ -78,15 +78,15 @@
 @-moz-keyframes fade {
     
     50% {
-        background: url(../img/img11.jpg) no-repeat;
+        background-image: url(../img/img11.jpg) no-repeat;
     }
     
     75% {
-        background: url(../img/img18.jpg) no-repeat;
+        background-image: url(../img/img18.jpg) no-repeat;
     }
     
     100% {
-        background: url(../img/img9.jpg) no-repeat;
+        background-image: url(../img/img9.jpg) no-repeat;
     }
     
 }
@@ -94,15 +94,15 @@
 @keyframes fade {
     
     50% {
-        background: url(../img/img11.jpg) no-repeat;
+        background-image: url(../img/img11.jpg) no-repeat;
     }
     
     75% {
-        background: url(../img/img18.jpg) no-repeat;
+        background-image: url(../img/img18.jpg) no-repeat;
     }
     
     100% {
-        background: url(../img/img9.jpg) no-repeat;
+        background-image: url(../img/img9.jpg) no-repeat;
     }
     
 }
@@ -228,7 +228,7 @@ nav ul li a:hover {
 .cross-fade {
     width: inherit;
     height: inherit;
-    background: url(../img/img10.jpg) no-repeat;
+    background-image: url(../img/img10.jpg) no-repeat;
     -webkit-animation: fade 5s 2s infinite;
     -moz-animation: fade 5s 2s infinite;
          animation: fade 5s 2s infinite;
